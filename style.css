@@ -6,6 +6,48 @@
  body{
     color: white;
     background-color: black;
-    margin: 100px 30px;
     text-align: center;
- }
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+form {
+    margin-top: 15px;
+}
+
+input {
+    padding: 8px;
+    background-color: black;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7CFC00;
+    box-shadow: 0 0 5px #7CFC00;
+}
+
+button {
+    background-color: #2ecc71;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
